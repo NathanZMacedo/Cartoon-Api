@@ -9,7 +9,8 @@
     padding-inline: 20px;
     background-color: var(--background-color);
     height: 75px;
-    position: absolute;
+    position: fixed;
+    top: 0;
     width: 100VW;
     align-items: center;
 }
@@ -23,12 +24,4 @@
     color: white;
     font-size: 1.8rem;
     text-decoration: none;
-}
-@media (max-width 600px) {
-    #navbar{
-        flex-direction: row-reverse;
-    }
-    #navbar-image{
-        left: 50px;
-    }
 }
