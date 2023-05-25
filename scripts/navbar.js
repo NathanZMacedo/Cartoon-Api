@@ -4,10 +4,12 @@ navbar.innerHTML= `
     <div style="display: inline-block">
         <a class="links-navbar" href="./index.html">Home</a>
         <a class="links-navbar" href="./cartoons.html">Cartoons</a>
+        <a class="links-navbar" href="./animations.html">Animations</a>
     </div>
     <div id="info-navbar">
         <div id="nome-navbar">  <p id="nome-na-nav">${checkNavName}</p>   </div>
         <img onclick="logar()"  src="./images/navbar/1.jpeg"    id="navbar-image">
+
     </div>
     `
 
