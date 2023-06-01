@@ -1,4 +1,4 @@
-#icon-zap {
+#sendMessageBtn {
     position: fixed;
     height: 128px;
     width: 128px;
@@ -6,7 +6,7 @@
     bottom: 50px;
     right: 50px;
 }
-#icon-zap:hover{
+#sendMessageBtn:hover{
     cursor: pointer;
     border: 2px solid black;
 }
