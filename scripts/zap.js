@@ -1,4 +1,7 @@
+zap = document.getElementById('zap')
+zap.innerHTML = '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2044px-WhatsApp.svg.png" alt="" id="sendMessageBtn">'
 document.getElementById("sendMessageBtn").addEventListener("click",()=>SendMessage());
+
 
 function SendMessage(){
     console.log("oi")
