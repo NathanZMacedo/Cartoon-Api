@@ -1,4 +1,16 @@
 body{
     margin: 0;
     background-color: rgb(61, 61, 61);
+    background: url(https://i.pinimg.com/originals/55/f3/d2/55f3d2c1a764914b4f9aca1ad2fcd857.jpg);
+}
+#Home{
+    display: flex;
+    color: white;
+    margin-top: 100px;
+    flex-direction: column;
+    border: 10px solid black;
+    margin-left: 5%;
+    margin-right: 50%;
+    background-color: black;
+    border-radius: 10px;
 }
