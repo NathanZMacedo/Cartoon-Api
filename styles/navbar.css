@@ -1,0 +1,40 @@
+:root{
+    --background-color: black;
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 20px;
+    background-color: var(--background-color);
+    height: 75px;
+    position: fixed;
+    top: 0;
+    width: 100VW;
+    align-items: center;
+}
+#navbar-image{
+    right: 50px;
+    border-radius: 50%;
+    width: 48px;
+}
+.links-navbar{
+    color: white;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+#nome-na-nav{
+    color: white;
+    font-size: 1.8rem;
+    margin-right: 4px;
+}
+#info-navbar{
+    position: fixed;
+    right: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}

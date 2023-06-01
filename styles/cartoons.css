@@ -1,0 +1,25 @@
+#cartoonsList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+#cartoonsList div{
+    display: flex;
+    width: 368px;
+    height: 650px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 80px;
+    justify-content: center;
+    border-radius: 50px;
+    align-items: center;
+    flex-direction: column;
+}
+.cartoonsImage {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%; 
+    border-radius: 50px;
+}

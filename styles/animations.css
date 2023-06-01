@@ -1,0 +1,35 @@
+.animationsImage {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%; 
+    border-radius: 50px;
+    align-items: center;
+    border: 5px solid white;
+}
+.title1{
+    position: absolute;
+    display: flex;
+    margin-top: 325px;
+    margin-left: 30px;
+    font-size: 15px;
+    color: purple;
+    background-color: yellow;
+}
+
+#animationsList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.animationsImage {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%; 
+    border-radius: 50px;
+    align-items: center;
+}

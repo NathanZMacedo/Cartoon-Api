@@ -1,0 +1,12 @@
+#sendMessageBtn {
+    position: fixed;
+    height: 128px;
+    width: 128px;
+    border-radius: 50%;
+    bottom: 50px;
+    right: 50px;
+}
+#sendMessageBtn:hover{
+    cursor: pointer;
+    border: 2px solid black;
+}
